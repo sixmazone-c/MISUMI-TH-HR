@@ -9,13 +9,13 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Max' Blog</title>
+        <title>Employee safety check Blog</title>
         <meta
           name="description"
-          content="I post about programming and web development. aa"
+          content="This post about employee safety check"
         />
       </Head>
-      <Hero />
+      {/* <Hero /> */}
       <FeaturedPosts posts={props.posts} />
     </Fragment>
   );

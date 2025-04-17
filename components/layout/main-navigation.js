@@ -1,7 +1,7 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-import Logo from './logo';
-import classes from './main-navigation.module.css';
+import Logo from "./logo";
+import classes from "./main-navigation.module.css";
 
 function MainNavigation() {
   return (
@@ -12,10 +12,10 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link href="/posts">Posts</Link>
+            <Link href="/posts">Admin Posts</Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact">Login</Link>
           </li>
         </ul>
       </nav>
